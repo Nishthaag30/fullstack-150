@@ -1,0 +1,38 @@
+body
+{
+    background-color:cadetblue;
+}
+#d1{
+    height: 500px;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color:indianred;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.Astick{
+    background-color: burlywood;
+    height: 50px;
+    width: auto;
+    margin: 5px;
+    border-radius: 25px;
+    text-align: center;
+    position: sticky;
+    top: 5px;
+}
+.A{
+    height: 50px;
+    width: auto;
+    background-color:antiquewhite;
+    margin: 5px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+
+}

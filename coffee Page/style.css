@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    height: 90px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_img{
+    margin-left: 50px;
+}
+.header_items{
+    color: white;
+    
+}
+.header_items ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.header_items ul li{
+    list-style: none;
+}
+#header_icons
+{
+    align-items: center;
+    margin-right: 30px;
+}
+#header_icons ul{
+    display: flex;
+}
+#header_icons li{
+    padding: 10px;
+}
+#first{
+    height: 700px;
+    background: url("./img/home-img.jpeg") no-repeat center;
+}
+#first_section{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+#section1_content h1
+{
+    width: 600px;
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: 550;
+    color: white;
+    margin-bottom: 15px;
+}
+#section1_para{
+    width: 600px;
+    font-size: 18px;
+    margin-left: 100px;
+    opacity: 80%;
+    color: white;
+    line-height: 1.5;
+}
+#section1_button{
+    margin-left: 100px;
+}
+#section1_button button{
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(204, 205, 120);
+}
+#section2{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    
+}
+.heading{
+    font-size: 60px;
+    text-align: center;
+}
+#sec_sec2{
+    margin-top: 30px;
+    display: flex;
+    height: 90%;
+    justify-content:space-between;
+}
+#sec2_img{
+    margin-left: 20px;
+}
+#sec2_content{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px
+}
+#cont{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#cont h1{
+    font-size: 40px;
+}
+#cont p{
+    letter-spacing: .1px;
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+#section3{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+#card_row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 320px;
+    border: .5px solid white;
+}
+.cards img{
+    height: 100px;
+}
+.s1{
+    text-decoration: line-through;
+}

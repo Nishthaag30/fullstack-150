@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.header{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(78, 85, 94);
+}
+.elements{
+    gap: 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.color{
+    margin-left: 60px;
+    height: 60px;
+    width: 260px;
+    background-color: rgb(42, 42, 42) ;
+}
+.square-color{
+    height: 30px;
+    width: 35px;
+    margin: 15px;
+    border-radius: 6px;
+}
+.color1{
+    background-color:rgb(214, 74, 102);
+}
+.color2{
+    background-color:rgb(0, 158, 197);
+}
+.color3{
+    background-color: rgb(12, 101, 101);
+}
+.color4{
+    background-color: black;
+}
+.color a:hover{
+    background-color:rgb(210, 205, 205);
+    cursor:default;
+}
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.add-icons{
+    height: 60px;
+    width: 110px;
+    background-color: rgb(42, 42, 42) ;
+}
+.box{
+    margin: 15px;
+}
+.add-icons a:hover{
+    background-color:rgb(210, 205, 205);
+    cursor:text;
+}
+
+
+.addition{
+    position: absolute;
+    transform: translate(50%, 50%);
+    left: 20%;
+    top: -70%;
+}
+.showinputbox{
+    top: 0%;
+}
+.textfield{
+    border: 20px solid rgb(199, 199, 199);
+    height: 300px;
+    width: 300px;
+}
+.color-palett{
+    border: 20px solid rgb(26, 11, 97);
+    height: 300px;
+}
+.textfield input{
+    text-align: center;
+    border: none;
+    height: 250px;
+    width: 250px;
+    font-size: 1.5rem;
+}
+.square-color2{
+    width: 70px;
+    height: 52px;
+    margin: 10px;
+}
+.color-2 a:hover{
+    border: 5px gray solid;
+    width: 60px;
+    height: 42px;
+    background-color: #fff;
+}
+
+.main{
+    margin: 20px;
+}
+.common{
+    height: 250px;
+    width: 350px;
+}
+.head-color{
+    height: 30px;
+    width: auto;
+    background-color: rgb(12, 101, 101);
+}
+.heading-name{
+    height: 50px;
+    width: auto;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.text{
+    height: 150px;
+    width: auto;
+    background-color:bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+}

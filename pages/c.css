@@ -1,0 +1,62 @@
+#ul{
+    display: flex;
+    justify-content:space-evenly;
+}
+li:first-child{
+    color: red;
+}
+/* li:nth-of-type(odd)
+{
+    color: aqua;
+} */
+p:nth-of-type(2){
+    color: brown;
+}
+p:nth-child(3)
+{
+    color: chartreuse;
+}
+h1::before{
+    content: 'this is before the heading ';
+    color: aqua;
+}
+h1::after{
+    content: 'Heading one is changed';
+    color: blue;
+}
+#lp{
+    border: 2px solid black;
+}
+
+ul ul{
+    border: inherit;
+}
+section p{
+    border: 3px solid black;
+    width: 300px;
+    margin: 50px;
+    padding: 10px;
+}
+section{
+    display: flex;
+}
+section div{
+    background-color: blue;
+    height: 800px;
+    width:150px;
+    margin: 15px;
+    padding: 15px;
+}
+/* inline>> internal >> external
+id > class > element 
+rgba ---> a- alpha channel, controls opacity,  0--> transparent 1 --> full opacity    rgba(23,32,141,0.5);
+every element is html can be considered as a rectangulare box- [CSS BOX MODEL]
+-> border
+-> height/width
+->padding
+-> margin
+
+CSS UNITS-
+absolute --> cm, mm,, inches, px
+relative --> %, vh, em, rem, vw;
+*/

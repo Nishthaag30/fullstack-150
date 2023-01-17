@@ -1,0 +1,90 @@
+section{
+    border: 5px solid black;
+    padding: 10px;
+}
+section> h1{
+    border: 2px solid #ff0000;
+    border-radius: 15px;
+    text-align: center;
+}
+section div{
+    background-color: brown;
+    border: 2px black solid;
+    height: 150px;
+}
+section:nth-of-type(2)
+{
+    background-color: bisque;
+    margin-top: 15px;
+    height: 40vh;
+    width: 50vw;
+    background-image: url('https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kc3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    
+}
+#di{
+    font-size: 10px;
+}
+#di ul{
+    font-size: 2em;
+}
+span{
+    background-color: burlywood;
+    border: 2px solid black;
+    display: block;
+}
+h1{
+    background-color:darkcyan;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 20px;
+}
+.divdiv{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-color:darksalmon;
+    position: static;
+}
+.d2{
+    background-color: rgb(118, 233, 233);
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid blueviolet;
+}
+#ii{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: blue;
+}
+.d3{
+    background-color: cyan;
+    height: auto;
+    font-size: 80px;
+    position: sticky;
+    top: 10px;
+    margin: 10px;
+}
+nav
+{
+    background-color:lightgray;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;    
+}
+nav ul li{
+    list-style: none;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
